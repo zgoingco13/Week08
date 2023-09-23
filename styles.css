@@ -1,0 +1,94 @@
+html {
+    font-family: Papyrus, fantasy;
+    background: linear-gradient(180deg, 
+    rgb(244, 191, 57),
+    rgb(186, 139, 19),
+    rgb(111, 82, 6),
+    rgb(78, 56, 0)
+    ); /* background is gradient from gold to brown and all font style is Papyrus*/
+    margin: 2rem 1rem;
+}
+
+navigation {
+    border: 2px dashed rgba(160, 66, 8, 0.998); 
+    border-radius: 20%; /*added border and round the corners*/
+}
+
+h1 {
+    filter: drop-shadow(2px 2px 1px #85310bd5); /*creates a shadow style*/
+    text-align: center;
+}
+
+intro {
+    text-align: center;
+}
+
+.mainImage { /*this is a class to make changes to all elements under class="mainImage"*/
+    border-width: 5px;
+    width: 40rem;
+    height: 25rem;
+    display: block; /*allows image to display as its own block so it can be auto adjusted within set parameters*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border: 2px solid rgba(160, 66, 8, 0.998);
+}
+
+figcaption {
+    text-align: center;
+}
+
+body {
+    border: 2px solid rgba(160, 66, 8, 0.998);
+}
+
+.tableimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10%;
+    border: none
+}
+
+td {
+    border: 2px solid rgba(160, 66, 8, 0.998);
+    border-radius: 10%;
+}
+
+td th, p {
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#LCC img, #senderOne img { /*this is a id to make changes to a single element in this case id="LCC"*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+}
+
+#senderOne h3, ul h3 {
+    text-align: left;
+}
+
+a:hover { /*highlights box when mouse cursor hovers*/
+    background-color: rgba(204, 159, 9, 0.81);
+}
+
+#form {
+    border: 2px dashed rgba(160, 66, 8, 0.998);
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 1px rgba(217, 89, 9, 0.998));
+}
+
+ul img {
+    filter: drop-shadow(3px 3px 2px rgba(244, 98, 0, 0.783));
+}

@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Document</title>
+    <title>Week8</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
-    <h1>Let's Go Rockclimbing</h1> <!--header-->
 
-    <div>
+<body>
+    <navigation>
         <a href="home.html">Home</a>
         <a href="aboutme.html">About Me</a>
         <a href="getstarted.html">How to Get Started</a> <!--created links to navigate to the different pages-->
-    </div>
+    </navigation>
+
+
+    <intro> 
+        <h1>Let's Go Rockclimbing</h1> <!--header-->
+        <img class="mainImage" height="400px" src="https://media.istockphoto.com/id/527531592/photo/rock-climber-clinging-to-a-cliff.jpg?s=612x612&w=0&k=20&c=2AUDSQAWDVzyvTeWQ5rXTwQGGBqQ0eCJw4kk4S6r6OQ=">
+        <figcaption>I wish this was me but I'm totally not on that level.</figcaption><!--added image using image url address and fixed sizing of image-->
+    </intro>
 
     <div>
-        <img height="400px" src="https://media.istockphoto.com/id/527531592/photo/rock-climber-clinging-to-a-cliff.jpg?s=612x612&w=0&k=20&c=2AUDSQAWDVzyvTeWQ5rXTwQGGBqQ0eCJw4kk4S6r6OQ=">
-        <br>I wish this was me but I'm totally not on that level. <!--added image using image url address and fixed sizing of image-->
-    </div>
-
-    <h3>What is rock climbing?</h3> <!--different sized header-->
-    <p>Rock climbing is incredibly fun sport that incorporates a full body work. You can always climb indoors or have some  <br>
-        fun in the sun and climb outdoors!<br><br>
-        There are many ways to climb, but here are the three main ways: <!--different block with paragraph text-->
+        <h3>What is rock climbing?</h3> <!--different sized header-->
+        <p>
+            Rock climbing is incredibly fun sport that incorporates a full body work. You can always climb indoors or have some  <br>
+            fun in the sun and climb outdoors!<br><br>
+            There are many ways to climb, but here are the three main ways: <!--different block with paragraph text-->
     </p>
+    </div>
 
     <div>
         <table> <!--table added where first block is the table headers, then rows after are the subjects-->
             <tr>
                 <th>Type of Rock Climb</th>
-                <th colspan="50"></th> <!--colspan adjust spacing in between columns-->
                 <th>Example</th>
-                <th colspan="65"></th>
                 <th>Description</th>
             </tr>
 
@@ -41,11 +43,10 @@
                 <td>
                     <h5>Bouldering (Free Solo)</h5>
                 </td>
-                <td colspan="50"></td>
                 <td>
-                    <img height="225px" src="https://i.makeagif.com/media/7-01-2015/FXLz-S.gif">
+                    <img class="tableimage" height="225px" src="https://i.makeagif.com/media/7-01-2015/FXLz-S.gif">
                 </td>
-                <td colspan="65"></td>
+                
                 <td>
                     <p>Climbing without the aid of any ropes. Generally walls are shorter.</p>
                 </td>
@@ -55,11 +56,9 @@
                 <td>
                     <h5>Top Rope</h5>
                 </td>
-                <td colspan="50"></td>
                 <td>
-                    <img height="200px" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3l4OWdxcmhnY2JrbDk1Y25uMHgzN3o5YzBrc2d2NDVhN3FxaXM3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kbPvi0OavYKcJI0Gkw/giphy.gif">
+                    <img class="tableimage" height="200px" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3l4OWdxcmhnY2JrbDk1Y25uMHgzN3o5YzBrc2d2NDVhN3FxaXM3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kbPvi0OavYKcJI0Gkw/giphy.gif">
                 </td>
-                <td colspan="65"></td>
                 <td>
                     <p>Climbing with a rope where a belayer feeds the rope through a pulley system. (Safest way to climb imo) </p>
                 </td>
@@ -69,11 +68,9 @@
                 <td>
                     <h5>Lead Climbing</h5>
                 </td>
-                <td colspan="50"></td>
                 <td>
-                    <img height="150x" src="https://64.media.tumblr.com/aafa0e2f639eacfe251221bccd17885e/tumblr_mt6au9yFuQ1sx0siio1_400.gif">
+                    <img class="tableimage" height="150x" src="https://64.media.tumblr.com/aafa0e2f639eacfe251221bccd17885e/tumblr_mt6au9yFuQ1sx0siio1_400.gif">
                 </td>
-                <td colspan="65"></td>
                 <td>
                     <p>Combo of bouldering and top rope. Belayer is feeding the rope which climber attaches to every clip during climb.
                         Pulley system only after rope is clipped in. </p>
